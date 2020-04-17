@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="./umd.js"></script>
+    <script>
+        let unregister = registerKeyboard.register('bottom', function (e) {
+            console.log('bottom')
+            unregister()
+        })
+    </script>
+</head>
+
+
+<body style="height: 1000px;">
+    <div class="box box1">
+        <span>垂直居中</span>
+    </div>
+    <button onclick="unbind()">解绑</button>
+</body>
+</html>

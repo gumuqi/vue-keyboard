@@ -9,7 +9,7 @@ Keyboard.install = function (Vue, options) {
         keyboardEvents: []
       }
     },
-    beforeDestory: function () {
+    beforeDestroy: function () {
       // 在组件销毁之前，解除在该组件中绑定的事件
       this.keyboardEvents.forEach(unbind => {
         if (typeof unbind === 'function') {
