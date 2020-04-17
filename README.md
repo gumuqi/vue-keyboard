@@ -1,4 +1,4 @@
-# keyboard
+# keybaord
 
 ## Project setup
 ```
